@@ -1,5 +1,5 @@
-@import url(/scss/main.scss);
-@import url(/scss/menu.css);
+@import url(../scss/main.scss);
+@import url(../scss/menu.css);
 @mixin aspect-ratio($width, $height) {
     position: relative;
       
@@ -56,13 +56,13 @@ color: #000000;
       margin: 0 auto;
       padding: 0 20px;
   }
-  .img1{background-image: url(/image/secondpage/i1p2f1.svg);}
-  .img2{background-image: url(/image/secondpage/i2p2f1.svg);}
-  .img3{background-image: url(/image/secondpage/i3p2f1.svg);}
-  .img4{background-image: url(/image/secondpage/i4p2f1.svg);}
-  .img5{background-image: url(/image/secondpage/i5p2f1.svg);}
-  .img6{background-image: url(/image/secondpage/i6p2f1.svg);}
-  .img7{background-image: url(/image/secondpage/i7p2f1.svg);}
+  .img1{background-image: url(../image/secondpage/i1p2f1.svg);}
+  .img2{background-image: url(../image/secondpage/i2p2f1.svg);}
+  .img3{background-image: url(../image/secondpage/i3p2f1.svg);}
+  .img4{background-image: url(../image/secondpage/i4p2f1.svg);}
+  .img5{background-image: url(../image/secondpage/i5p2f1.svg);}
+  .img6{background-image: url(../image/secondpage/i6p2f1.svg);}
+  .img7{background-image: url(../image/secondpage/i7p2f1.svg);}
   .carousel {
       
       text-align: left;
@@ -126,7 +126,7 @@ color: #000000;
       white-space: normal;
       .card1{
         
-        background-image: url(/image/secondpage/card1.svg);
+        background-image: url(../image/secondpage/card1.svg);
         background-repeat: no-repeat;
       }
       figure {
