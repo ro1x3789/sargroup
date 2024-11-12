@@ -1,0 +1,60 @@
+@import url(./menu.css);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gabriela";
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+main {
+  background-image: url(/image/fivepage/back5.svg);
+}
+main .cont5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .cont5 h1 {
+  font-weight: 400;
+  font-size: 96px;
+  color: #ff7a00;
+}
+main .elem5 {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 828px;
+  height: 600px;
+}
+main .elem5 ul {
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.68);
+  list-style-type: none;
+}
+main .elem5 ul a {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
+main .elem5 ul li {
+  color: #ff7a00;
+}
+main .elem5 ul li span {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  main .cont5 {
+    height: 400px;
+  }
+  main .cont5 .elem5 {
+    width: 300px;
+    height: 2200px;
+  }
+  main .cont5 .elem5 ul li a {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=six.css.map */

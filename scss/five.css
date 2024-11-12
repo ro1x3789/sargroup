@@ -1,0 +1,47 @@
+@import url(./menu.css);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gabriela";
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+main {
+  background-image: url(/image/fivepage/back5.svg);
+}
+main .cont5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .cont5 h1 {
+  font-weight: 400;
+  font-size: 96px;
+  color: #ff7a00;
+}
+main .elem5 {
+  width: 828px;
+  height: 752px;
+}
+main .elem5 ul {
+  text-align: left;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.68);
+  list-style-type: square;
+}
+main .elem5 ul li {
+  color: #ff7a00;
+}
+main .elem5 ul li span {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  main .cont5 .elem5 {
+    width: 300px;
+    height: 2200px;
+  }
+}/*# sourceMappingURL=five.css.map */
